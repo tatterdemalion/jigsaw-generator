@@ -2,11 +2,11 @@
 
 # Convert this:
 
-![original](https://raw.githubusercontent.com/tatterdemalion/jigsaw-generator/master/test.jpg)
+![original](https://raw.githubusercontent.com/tatterdemalion/jigsaw-generator/master/images/test.jpg)
 
 # To this:
 
-![output](https://raw.githubusercontent.com/tatterdemalion/jigsaw-generator/master/output.jpg)
+![output](https://raw.githubusercontent.com/tatterdemalion/jigsaw-generator/master/images/output.jpg)
 
 ```
                  filename | directory | piece count
