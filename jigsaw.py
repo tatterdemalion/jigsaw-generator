@@ -197,7 +197,8 @@ if __name__ == '__main__':
     with open('template.html', 'r') as f:
         template = f.read()
         template = template.replace('{{ piece_count }}', piece_count)
-    with open('index.html', 'w') as f:
+    with open(os.path.join(output, 'index.html'), 'w') as f:
         f.write(template)
-    index_html_path = 'file://' + os.path.join(os.getcwd(), 'index.html')
+    index_html_path = 'file://' + os.path.join(os.path.abspath(output),
+                                               'index.html')
     webbrowser.open(index_html_path, 2)
