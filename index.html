@@ -22,9 +22,11 @@
         $('.puzzle').append('<img src="output/' + item + '">');
       }
     }
+$(window).load(function(){
     var img = document.querySelector('.puzzle img');
     var imageWidth = img.clientWidth;
     $('.puzzle').width(imageWidth * piece_count)
+    });
   </script>
   </body>
 </html>

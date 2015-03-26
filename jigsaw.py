@@ -192,7 +192,8 @@ if __name__ == '__main__':
     if os.path.exists(output):
         shutil.rmtree(output)
     os.mkdir(output)
-    Jigsaw(image, output, int(piece_count))
+    jigsaw = Jigsaw(image, output, int(piece_count))
+    print jigsaw
     with open('template.html', 'r') as f:
         template = f.read()
         template = template.replace('{{ piece_count }}', piece_count)
