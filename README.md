@@ -8,6 +8,9 @@
 
 ![output](https://raw.githubusercontent.com/tatterdemalion/jigsaw-generator/master/images/output.jpg)
 
+[Click to see the actual output](http://tatterdemalion.github.io/jigsaw-generator/)
+
+
 ```
                  filename | directory | piece count
 python jigsaw.py test.jpg   output      10
