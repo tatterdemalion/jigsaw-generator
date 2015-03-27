@@ -12,8 +12,13 @@
 
 
 ```
-                 filename | directory | piece count
-python jigsaw.py test.jpg   output      10
+params:
+- path to image file
+- output directory path where jigsaw.py will write the sliced image files
+- total number of pieces for one row
+
+example:
+python jigsaw.py test.jpg desktop/output 10
 ```
 
 Every piece is a class that holds the information of the underlying image and the order on the jigsaw.
