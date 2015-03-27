@@ -193,7 +193,6 @@ if __name__ == '__main__':
         shutil.rmtree(output)
     os.mkdir(output)
     jigsaw = Jigsaw(image, output, int(piece_count))
-    print jigsaw
     with open('template.html', 'r') as f:
         template = f.read()
         template = template.replace('{{ piece_count }}', piece_count)
